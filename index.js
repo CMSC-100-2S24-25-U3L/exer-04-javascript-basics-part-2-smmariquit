@@ -16,7 +16,7 @@
 // Import all necessary modules.
 import { v4 as uuidv4 } from 'uuid';
 import validator from 'validator';
-import appendFileSync from 'node:fs';
+import { appendFileSync } from 'node:fs';
 
 // Using the first name and last name, generate a unique ID for a new user.
 function generateUniqueID(fn, ln){
@@ -74,9 +74,12 @@ function addAccount(arr){
     // Try to append it and return true if success, otherwise return false
     try {
         appendFileSync('users.txt', data);
+        console.log("Passed");
         return true
     } catch (err) {
         console.log(err);
         return false
     }
 }
+
+export default { generateUniqueID, addAccount }

@@ -14,4 +14,6 @@
  * [2] Empty strings are falsy https://www.nfriedly.com/techblog/2009/07/advanced-javascript-operators-and-truthy-falsy/
  */
 
-addAccount(["alan", "turing", "a@b.com", 19])
+import index from './index.js';
+
+index.addAccount(["alan", "turing", "a@b.com", 19])
