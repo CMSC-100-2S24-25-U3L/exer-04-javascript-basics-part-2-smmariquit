@@ -74,7 +74,6 @@ function addAccount(arr){
     // Try to append it and return true if success, otherwise return false
     try {
         appendFileSync('users.txt', data);
-        console.log("Passed");
         return true
     } catch (err) {
         console.log(err);
