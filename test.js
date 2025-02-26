@@ -17,3 +17,5 @@
 import index from './index.js';
 
 index.addAccount(["alan", "turing", "a@b.com", 19])
+index.addAccount(["simonee", "mariquit", "smmariquit@up.edu.ph", 20])
+index.addAccount(["gru", "minions", "gru@minioncorps.com", 19])
