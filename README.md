@@ -1,4 +1,4 @@
-# CMSC 100 Exer 3 - JavaScript
+# CMSC 100 Exer 4 - JavaScript
 Simonee Ezekiel M. Mariquit - CMSC 100 U3L
 S/N: 2023-16061
 

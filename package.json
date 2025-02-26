@@ -1,0 +1,27 @@
+{
+  "name": "password_validation",
+  "version": "1.0.0",
+  "description": "Simulates a password validation program in JavaScript",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CMSC-100-2S24-25-U3L/exer-04-javascript-basics-part-2-smmariquit.git"
+  },
+  "keywords": [
+    "validation"
+  ],
+  "author": "smmariquit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CMSC-100-2S24-25-U3L/exer-04-javascript-basics-part-2-smmariquit/issues"
+  },
+  "homepage": "https://github.com/CMSC-100-2S24-25-U3L/exer-04-javascript-basics-part-2-smmariquit#readme",
+  "dependencies": {
+    "uuid": "^11.1.0",
+    "validator": "^13.12.0"
+  }
+}
